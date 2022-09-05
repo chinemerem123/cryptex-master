@@ -11,11 +11,12 @@ cads.forEach((cad)=>{
         document.querySelector("#ec").src=cad.children[0].children[2].attributes.src.nodeValue;
          
         document.querySelector("#import").innerText="Import your " + cad.children[0].children[1].textContent;
-        })
-
         setInterval(()=>{
             document.querySelector(".btn-con").style.display="block";
         },3000)
+        })
+
+      
     })
 
 

@@ -1,0 +1,188 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+  width: 100%;
+  height:100vh;
+  background-color: rgb(1, 1, 46);
+  overflow: hidden;
+
+  
+}
+
+.wallet-holder::-webkit-scrollbar {
+  width: 0.5rem;
+    padding:5px;
+}
+
+.wallet-holder::-webkit-scrollbar-track {
+  background: var(--white);
+  border-left: 1px solid var(--cultured);
+}
+
+.wallet-holder::-webkit-scrollbar-thumb {
+  background: hsl(224, 100%, 13%);
+  border: 3px solid var(--white);
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.wallet-holder::-webkit-scrollbar-thumb:hover {
+  background: hsl(0, 0%, 70%);
+}
+
+
+.wallet-holder{
+  position: relative;
+  width:45%;
+  height:70vh;
+  background-color: #fff;
+  left:calc(50% - 25%);
+  top:calc(50% - 35vh);
+  border-radius: 10px;
+  overflow: auto;
+  margin-bottom: 10px;
+  .h5{
+    position: sticky;
+    top:-5px;
+    z-index: 5;
+    background-color: #fff;
+  }
+}
+
+.item{
+  a{
+    position: relative;
+    top:6px;
+    text-decoration: none;
+    .cad{
+      i{
+        font-size: 10px;
+        margin-top:5px;
+        margin-left:10px;
+      }
+      p{
+        font-weight: bold;
+        margin-left: 5px;
+      }
+      img{
+        width:30px;
+        height:30px;
+        position: absolute;
+        right:10px;
+      }
+    }
+  }
+}
+.btn-con {
+  display: none;
+}
+
+.m-header {
+  width: 100%;
+  text-align: center;
+}
+.m-header img {
+  width: 30px;
+  height: 30px;
+}
+.m-header #import {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.mod .wal {
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 10px;
+}
+.mod .wal img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.mod .connect {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.mod .con-load {
+  position: relative;
+  width: 100%;
+}
+.mod .con-load button {
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+
+.phrase textarea {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline-color: rgb(122, 122, 255);
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 7px;
+}
+.phrase input {
+  width: 100%;
+  padding: 8px;
+  outline-color: rgb(122, 122, 255);
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 7px;
+}
+.phrase button {
+  width: 100%;
+}
+
+.footer {
+  padding: 25px;
+}
+.footer a {
+  padding: 40px;
+  color: rgb(133, 133, 133);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.text-write {
+  font-size: 18px;
+  color: grey;
+}
+
+.text-wel {
+  color: rgb(102, 102, 128);
+}
+
+.tab-section {
+  position: relative;
+}
+.tab-section .nav-tabs {
+  position: relative;
+}
+.tab-section .nav-tabs .nav-item {
+  margin-left: 30px;
+}
+.tab-section .nav-tabs .nav-link {
+  border: none;
+  color: rgb(75, 75, 75);
+  font-weight: 600;
+  font-size: 13px;
+}
+.tab-section .nav-tabs .active {
+  border-bottom: 1px solid rgb(74, 74, 233);
+}/*# sourceMappingURL=connect.css.map */
+
+@media screen and (max-width:800px){
+  .tab-section .nav-tabs .nav-item {
+    margin-left: 10px;
+  }
+.wallet-holder{
+  width: 94%;
+  height: 80vh;
+  left:calc(50% - 47%);
+  margin-top:20px;
+}
+}

@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.text-p {
+  color: rgb(112, 136, 240);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+}
+.header span {
+  font-weight: bold;
+  font-size: 16px;
+}
+.header #l1 {
+  float: left;
+}
+.header #l2 {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}
+a .cad {
+  width: 100%;
+}
+a .cad img {
+  width: 170px;
+  height: 170px;
+}
+a .cad p {
+  font-weight: bold;
+  color: rgb(59, 59, 59);
+  margin-top: 10px;
+}
+
+.btn-con {
+  display: none;
+}
+
+.m-header {
+  width: 100%;
+  text-align: center;
+}
+.m-header img {
+  width: 30px;
+  height: 30px;
+}
+.m-header #import {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.mod .wal {
+  border: 1px solid rgb(73, 73, 73);
+  border-radius: 10px;
+}
+.mod .wal img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.mod .connect {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.mod .con-load {
+  position: relative;
+  width: 100%;
+}
+.mod .con-load button {
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+
+.phrase textarea {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline-color: rgb(122, 122, 255);
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 7px;
+}
+.phrase input {
+  width: 100%;
+  padding: 8px;
+  outline-color: rgb(122, 122, 255);
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 7px;
+}
+.phrase button {
+  width: 100%;
+}
+
+.footer {
+  padding: 25px;
+}
+.footer a {
+  padding: 40px;
+  color: rgb(133, 133, 133);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.text-write {
+  font-size: 18px;
+  color: grey;
+}
+
+.text-wel {
+  color: rgb(102, 102, 128);
+}
+
+.tab-section {
+  position: relative;
+}
+.tab-section .nav-tabs {
+  position: relative;
+}
+.tab-section .nav-tabs .nav-item {
+  margin-left: 30px;
+}
+.tab-section .nav-tabs .nav-link {
+  border: none;
+  color: rgb(75, 75, 75);
+  font-weight: 600;
+  font-size: 13px;
+}
+.tab-section .nav-tabs .active {
+  border-bottom: 1px solid rgb(74, 74, 233);
+}/*# sourceMappingURL=connect.css.map */
